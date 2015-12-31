@@ -1,0 +1,82 @@
+h2 {
+  margin: 5px 0 5px 0;
+}
+
+#checker-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+table.checkerboard {
+	border: 1px solid black;
+  float: left;
+}
+
+tr {
+	background: solid black;
+}
+
+td {
+	border: 1px solid black;
+	width: 60px;
+	height: 64px;
+	padding: 0px;
+	padding-left: 8px;
+	text-align: center;
+	align-content: center;
+}
+
+.white {
+	background: white;
+}
+
+.green {
+	background: green;
+}
+
+.empty {
+}
+
+.red-piece {
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	background: red;
+}
+
+.black-piece {
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	background: black;
+}
+
+.prom-red-piece {
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	background: darkred;
+}
+
+.prom-black-piece {
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	background: darkslategray;
+}
+
+.console {
+  float: left;
+  margin-left: 10px;
+  padding: 10px;
+  height: 300px;
+  max-height: 400px;
+  width: 360px;
+  border: 1px solid #ddd;
+  background: #f2f2f2;
+  overflow: scroll;
+}
+
+.console p {
+ margin: 5px 0 5px 0;
+}
